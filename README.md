@@ -6,25 +6,25 @@
 This script creates a basic firewall that listens on a specified port (firewall_port) and blocks incoming connections on ports not listed in the allowed_ports set. This is just a starting point, and you may need to adapt it to your specific needs
 # Miscellaneous
  lmproof: This library is used for **proofreading.**
-Installation: pip install lmproof
+Installation: pip install lmproof <br> 
 tabula: This library is used for reading **PDF files and converting them to CSV**.
-Installation: pip install tabula-py
+Installation: pip install tabula-py <br> 
 PIL (Pillow): This library is used for **working with images**.
-Installation: pip install Pillow
+Installation: pip install Pillow <br> 
 pytube: This library is used for **downloading YouTube videos**.
-Installation: pip install pytube
+Installation: pip install pytube <br> 
 pygame: This library is used for **playing audio (text-to-speech functionality)**.
-Installation: pip install pygame
+Installation: pip install pygame <br> 
 gtts: This library is used for **text-to-speech functionality**.
-Installation: pip install gtts
+Installation: pip install gtts <br> 
 img2pdf: This library is used for **converting images to PDF**.
-Installation: pip install img2pdf
+Installation: pip install img2pdf <br> 
 fpdf: This library is used for **creating PDFs**.
-Installation: pip install fpdf
+Installation: pip install fpdf <br> 
 difflib: This library is part of the **standard library and is used for comparing sequences**.
-No additional installation is required.
+No additional installation is required. <br> 
 tkinter: This library is used for **file dialogs**.
-Included with Python, no additional installation required.
+Included with Python, no additional installation required. <br> 
 contextlib: This library is part of the standard library and is used for context management.
 No additional installation is required.
 urllib (for Python 2) or urllib.request (for Python 3): These libraries are used for making HTTP requests.
