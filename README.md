@@ -2,11 +2,11 @@
 # these are some of my experimented scripts
 # Youtube Ad Skipper
  Python is the programming language that was utilized to make this app. It automatically chooses the "skip ad" option on YouTube ads. It does this by utilizing the opencv package's Template Matching functionality. It retrieves templates for the skip ad button for various screen sizes and zoom levels in order to be platform agnostic. It works well on a wide range of PCs with different resolutions.
+# Basic firewall script
+This script creates a basic firewall that listens on a specified port (firewall_port) and blocks incoming connections on ports not listed in the allowed_ports set. This is just a starting point, and you may need to adapt it to your specific needs
 # Miscellaneous
  lmproof: This library is used for **proofreading.**
 Installation: pip install lmproof
-
-
 tabula: This library is used for reading **PDF files and converting them to CSV**.
 Installation: pip install tabula-py
 PIL (Pillow): This library is used for **working with images**.
