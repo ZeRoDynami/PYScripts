@@ -5,6 +5,8 @@
 # Miscellaneous
  lmproof: This library is used for **proofreading.**
 Installation: pip install lmproof
+
+
 tabula: This library is used for reading **PDF files and converting them to CSV**.
 Installation: pip install tabula-py
 PIL (Pillow): This library is used for **working with images**.
