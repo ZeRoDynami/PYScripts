@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import pyautogui
 import time
-# faster version
 # lopping over the template matching
 
 # reading the templates
@@ -25,8 +24,8 @@ while True:
 #     im1.save('im1.png')
 #     im1 = cv2.imread('im1.png', 0)
         
-# checking for template3   
-    res = cv2.matchTemplate(im1, template3, cv2.TM_CCOEFF_NORMED)
+# checking for template 1   
+    res = cv2.matchTemplate(im1, t1, cv2.TM_CCOEFF_NORMED)
     loc = np.where(res >= threshold)
     
 # checking if template is matched
@@ -35,8 +34,8 @@ while True:
         pyautogui.click(list(zip(*loc[::-1]))[0])
         continue # continue loop from start without further execution of the loop
         
-# checking for template4      
-    res = cv2.matchTemplate(im1, template4, cv2.TM_CCOEFF_NORMED)
+# checking for template 2       
+    res = cv2.matchTemplate(im1, t2, cv2.TM_CCOEFF_NORMED)
     loc = np.where(res >= threshold)
     
 # checking if template is matched
@@ -45,8 +44,8 @@ while True:
         pyautogui.click(list(zip(*loc[::-1]))[0])
         continue # continue loop from start without further execution of the loop
         
-# checking for template5        
-    res = cv2.matchTemplate(im1, template5, cv2.TM_CCOEFF_NORMED)
+# checking for template 3        
+    res = cv2.matchTemplate(im1, t3, cv2.TM_CCOEFF_NORMED)
     loc = np.where(res >= threshold)
     
 # checking if template is matched
@@ -55,8 +54,8 @@ while True:
         pyautogui.click(list(zip(*loc[::-1]))[0])
         continue # continue loop from start without further execution of the loop    
     
-# checking for template6        
-    res = cv2.matchTemplate(im1, template6, cv2.TM_CCOEFF_NORMED)
+# checking for template 4        
+    res = cv2.matchTemplate(im1, t4, cv2.TM_CCOEFF_NORMED)
     loc = np.where(res >= threshold)
     
 # checking if template is matched
