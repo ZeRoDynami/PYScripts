@@ -6,10 +6,10 @@ import time
 # lopping over the template matching
 
 # reading the templates
-template3 = cv2.imread('template3.png', 0)
-template4 = cv2.imread('template4.png', 0)
-template5 = cv2.imread('template5.png', 0)
-template6 = cv2.imread('template6.png', 0)
+template3 = cv2.imread('t1.png', 0)
+template4 = cv2.imread('t2.png', 0)
+template5 = cv2.imread('t3.png', 0)
+template6 = cv2.imread('t4.png', 0)
 
 # setting the threshold for confidence in template matching
 threshold = 0.7
